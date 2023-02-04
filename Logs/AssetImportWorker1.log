@@ -2,11 +2,11 @@ Unity Editor version:    2022.2.1f1 (4fead5835099)
 Branch:                  2022.2/release
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.5.2 (Build 20G95)
-Darwin version:          20.6.0
-Architecture:            x86_64
+macOS version:           Version 13.1 (Build 22C65)
+Darwin version:          22.2.0
+Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        65536 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot
+/Users/honeychawla/Documents/GitHub/ProjectUproot
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53606
-Successfully changed project path to: /Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot
-/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot
+57838
+Successfully changed project path to: /Users/honeychawla/Documents/GitHub/ProjectUproot
+/Users/honeychawla/Documents/GitHub/ProjectUproot
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,61 +54,60 @@ Successfully changed project path to: /Users/dotunoseni-adegbite/Documents/Proje
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4528262656] Host "[IP] 192.168.76.229 [Port] 0 [Flags] 2 [Guid] 3793113049 [EditorId] 3793113049 [Version] 1048832 [Id] OSXEditor(0,Dotuns-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8219179648] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 204240639 [EditorId] 204240639 [Version] 1048832 [Id] OSXEditor(0,honeychawla-mbp) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4528262656] Host "[IP] 192.168.76.229 [Port] 0 [Flags] 2 [Guid] 3793113049 [EditorId] 3793113049 [Version] 1048832 [Id] OSXEditor(0,Dotuns-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8219179648] Host "[IP] 192.168.1.29 [Port] 0 [Flags] 2 [Guid] 204240639 [EditorId] 204240639 [Version] 1048832 [Id] OSXEditor(0,honeychawla-mbp) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 3.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 92.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Assets
+[Subsystems] Discovering subsystems at path /Users/honeychawla/Documents/GitHub/ProjectUproot/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-Metal devices available: 2
-0: AMD Radeon Pro 5500M (high power)
-1: Intel(R) UHD Graphics 630 (low power)
-Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56846
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56313
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.002537 seconds.
-- Loaded All Assemblies, in  0.448 seconds
+Registered in 0.008329 seconds.
+- Loaded All Assemblies, in  0.240 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.371 seconds
+- Finished resetting the current domain, in  0.150 seconds
 Domain Reload Profiling:
-	ReloadAssembly (260ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (157ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (0ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (79ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-				TypeCache.Initialize (184ms)
-					TypeCache.ScanAssembly (183ms)
+			SetupTypeCache (80ms)
+				TypeCache.Initialize (80ms)
+					TypeCache.ScanAssembly (79ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (286ms)
+			SetupLoadedEditorAssemblies (112ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -116,49 +115,106 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.768 seconds
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.699 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.678 seconds
+- Finished resetting the current domain, in  0.354 seconds
 Domain Reload Profiling:
-	ReloadAssembly (297ms)
-		BeginReloadAssembly (152ms)
+	ReloadAssembly (163ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		LoadAllAssembliesAndSetupDomain (472ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (20ms)
+		LoadAllAssembliesAndSetupDomain (536ms)
+			LoadAssemblies (369ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (422ms)
-				TypeCache.Initialize (299ms)
-					TypeCache.ScanAssembly (296ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (212ms)
+				TypeCache.Initialize (150ms)
+					TypeCache.ScanAssembly (148ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (463ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (347ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.93 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1708 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (44.4 KB). Loaded Objects now: 2175.
-Memory consumption went from 384.9 MB to 384.8 MB.
-Total: 3.294118 ms (FindLiveObjects: 0.196938 ms CreateObjectMapping: 0.081784 ms MarkObjects: 2.904049 ms  DeleteObjects: 0.110485 ms)
+Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (41.2 KB). Loaded Objects now: 2176.
+Memory consumption went from 286.8 MB to 286.8 MB.
+Total: 2.189000 ms (FindLiveObjects: 0.075834 ms CreateObjectMapping: 0.022625 ms MarkObjects: 2.024542 ms  DeleteObjects: 0.065542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2b1d87000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.303 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (117ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		LoadAllAssembliesAndSetupDomain (186ms)
+			LoadAssemblies (28ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (118ms)
+					TypeCache.ScanAssembly (116ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (181ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 3.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 2179.
+Memory consumption went from 293.4 MB to 293.4 MB.
+Total: 5.977792 ms (FindLiveObjects: 0.181584 ms CreateObjectMapping: 0.059792 ms MarkObjects: 5.703000 ms  DeleteObjects: 0.032292 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -173,56 +229,794 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 21832.598376 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(3e2ce7f31dc5149048a80163ed76967d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 57774.984751 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_carry.png
+  artifactKey: Guid(1dff6be027d54bf3942e85ca7d837923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites using Guid(3e2ce7f31dc5149048a80163ed76967d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100f1e6dd17ac4117934e38a9ff197d1') in 0.002437 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_carry.png using Guid(1dff6be027d54bf3942e85ca7d837923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106d87c3466d16a588d0a9da19284e30') in 0.726837 seconds 
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_jump.png
+  artifactKey: Guid(47a58518b2914b46b99dd309b70c8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_jump.png using Guid(47a58518b2914b46b99dd309b70c8bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb8d82e6a06eedd6d33965668ab894b') in 0.109142 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/weapon_gun.png
+  artifactKey: Guid(12be737a280443739422dbb41e16059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/weapon_gun.png using Guid(12be737a280443739422dbb41e16059c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6aa057ab75e729491eb8d550ca1eca') in 0.021895 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_duck.png
+  artifactKey: Guid(abb1985ac6924bc4bf0cbfad2260d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_duck.png using Guid(abb1985ac6924bc4bf0cbfad2260d848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff83a5edc300f5b69f53d27cc0841fa') in 0.142137 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_vanish.png
+  artifactKey: Guid(4088b83802dc48b0819af9569bc90518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_vanish.png using Guid(4088b83802dc48b0819af9569bc90518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c7bf746972bdbede469e84bfc6dc40') in 0.069913 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_hammer.png
+  artifactKey: Guid(717e1359e1c94fed94872a3987019578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_hammer.png using Guid(717e1359e1c94fed94872a3987019578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3d03ab298f93c0f73fc66f8efb7d57') in 0.221623 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_slide.png
+  artifactKey: Guid(8c5b7c358e3a426db3cdcdbae59efbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_slide.png using Guid(8c5b7c358e3a426db3cdcdbae59efbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0443707375207ebd9923ebb1b66b8da') in 0.075924 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_gun.png
+  artifactKey: Guid(8425d437e43243b7a8b005ac1bed14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_gun.png using Guid(8425d437e43243b7a8b005ac1bed14f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f1ab05ba684606405a96121a13df8') in 0.016289 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_crawl.png
+  artifactKey: Guid(eeb71ecb3ff74499aa93e724ae0a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_crawl.png using Guid(eeb71ecb3ff74499aa93e724ae0a207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8afe5218c2439802ddc765e549e4e6cb') in 0.112243 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/world_wood_barrier.png
+  artifactKey: Guid(ee946e56fa804556a74502b41f1cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/world_wood_barrier.png using Guid(ee946e56fa804556a74502b41f1cd38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3677a49d8e1d8ad1eb1783f658ae1e2c') in 0.073435 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/weapon_hammer.png
+  artifactKey: Guid(b82b12be25914ea1aa8752dba4d8ed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/weapon_hammer.png using Guid(b82b12be25914ea1aa8752dba4d8ed09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d44de8300e84459ee969a6348b0218f') in 0.126546 seconds 
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_hold.png
+  artifactKey: Guid(f1f63d1c8de34e87aaba7d7c8158264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_hold.png using Guid(f1f63d1c8de34e87aaba7d7c8158264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d98502bfcebea7a64cab204d7e7ac4') in 0.165394 seconds 
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_throw.png
+  artifactKey: Guid(d6be5972a8b0441b8d56926ae866badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_throw.png using Guid(d6be5972a8b0441b8d56926ae866badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ed39e9aa0df3fd79663f555f69b5ef') in 0.121145 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_idle.png
+  artifactKey: Guid(fc5d350d3c1947e6abb543efbb004df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Flower/Sprites/character_idle.png using Guid(fc5d350d3c1947e6abb543efbb004df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3448b8905e08a10a9e01878189289b') in 0.112141 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 72.439745 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_bomb_carry.png
+  artifactKey: Guid(760bc594cff547f1807178ac3620f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_bomb_carry.png using Guid(760bc594cff547f1807178ac3620f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e139a76833f9fe87db9240cfd5a6b4') in 0.113693 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_carry.png
+  artifactKey: Guid(a97755fbc2964d539008f3b850d161a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_carry.png using Guid(a97755fbc2964d539008f3b850d161a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a405f92e322f4116e67df20a5413c8') in 0.117337 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 24.016786 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_explosion.png
+  artifactKey: Guid(203bcea289794048a0fd2dacc01533b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_explosion.png using Guid(203bcea289794048a0fd2dacc01533b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932cc1b8808bd332804960fee65abfd8') in 0.051571 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bomb_ground.png
+  artifactKey: Guid(245cde1ea1db428bb1ad60f050fefa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bomb_ground.png using Guid(245cde1ea1db428bb1ad60f050fefa1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9300c153bbe4d734c0ada911c1f9361b') in 0.053810 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_ground.png
+  artifactKey: Guid(0f8042976cf64524a2aed5d042147b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_ground.png using Guid(0f8042976cf64524a2aed5d042147b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f01cc187abd467fd64a65693042a1a') in 0.044970 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_bomb_ground.png
+  artifactKey: Guid(df4c61e67a9c443d8483ed27716d3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_bomb_ground.png using Guid(df4c61e67a9c443d8483ed27716d3cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3416fe8c55599f3d6b62d067e670cf87') in 0.044747 seconds 
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_bomb_explosion.png
+  artifactKey: Guid(0061890e32bf4202bf2b1f3de9b9c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_bomb_explosion.png using Guid(0061890e32bf4202bf2b1f3de9b9c428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156e66676e7a2a7bddc9032db760b0b5') in 0.033655 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.371374 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bomb_hold.png
+  artifactKey: Guid(90383e0d5f0046f28c07ab8dd3d46b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bomb_hold.png using Guid(90383e0d5f0046f28c07ab8dd3d46b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9377060de9c2321820ef28b1c25171a7') in 0.126825 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_hold.png
+  artifactKey: Guid(4803028e0f7e49b68c980b90760d40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_bomb_hold.png using Guid(4803028e0f7e49b68c980b90760d40d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ddcfa33eb4c966bfeb9ec6ac0bceea') in 0.115063 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.605000 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_bow.png
+  artifactKey: Guid(289b9f643627439b894c4a9654c16d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_bow.png using Guid(289b9f643627439b894c4a9654c16d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b7eb77bb182e36230c6f1ed8e2e368') in 0.068191 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_bow.png
+  artifactKey: Guid(1a3af953ea754a0ab1cf0aa0ef339c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_bow.png using Guid(1a3af953ea754a0ab1cf0aa0ef339c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4b57a03e58c36ba28218c851c2b7c8') in 0.021496 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/weapon_bow.png
+  artifactKey: Guid(ac72f7113ef94b3a9311915945b8495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/weapon_bow.png using Guid(ac72f7113ef94b3a9311915945b8495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9945a798f7519e214c982437cb6905ce') in 0.045850 seconds 
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_bow.png
+  artifactKey: Guid(2e3eac0d282c45fb8cd820e1cf9dba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_bow.png using Guid(2e3eac0d282c45fb8cd820e1cf9dba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050995ac32860bfeb3625be014d9dc95') in 0.017549 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_bow.png
+  artifactKey: Guid(95e68220b79944849a08320a81a10686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_bow.png using Guid(95e68220b79944849a08320a81a10686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d5bb5247993db5f1e83320f8cde7e4') in 0.018370 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.395644 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bullets.png
+  artifactKey: Guid(8c56c2fec48b451fa96bf3785e5b6d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_bullets.png using Guid(8c56c2fec48b451fa96bf3785e5b6d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694c372a645a695212c2ab14f26ac615') in 0.036925 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bullets.png
+  artifactKey: Guid(65d6754bd71145f599df0438b9d64757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_bullets.png using Guid(65d6754bd71145f599df0438b9d64757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9674ca6350bb5f09b929bc7b2971ac57') in 0.014437 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_bullets.png
+  artifactKey: Guid(c0e0ea05389f4469913e1f6d6c51cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_bullets.png using Guid(c0e0ea05389f4469913e1f6d6c51cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51bdc26ebb9e5df0a90213c5b0b72a1') in 0.018867 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_carry.png
+  artifactKey: Guid(78397cfeafc44161b6ba976d98dbd9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_carry.png using Guid(78397cfeafc44161b6ba976d98dbd9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b09f62ec1be47c1b8f8ed70fe4c011') in 0.133681 seconds 
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_carry.png
+  artifactKey: Guid(4c3a4e4ea7e64a5f941d89749f6ea436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_carry.png using Guid(4c3a4e4ea7e64a5f941d89749f6ea436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a6ac1a787e3790b4e7cdb0ba5985493') in 0.131362 seconds 
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 11.864183 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_crawl.png
+  artifactKey: Guid(fefdea64d7ed4903a13174638c879d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_crawl.png using Guid(fefdea64d7ed4903a13174638c879d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d7957ce2168f4b62ee6e778f4357e') in 0.118538 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_crawl.png
+  artifactKey: Guid(6b602bc2384940d4b8245a6d982796e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_crawl.png using Guid(6b602bc2384940d4b8245a6d982796e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d48e2660559e0fff5ebd55b97dac65a') in 0.113849 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 3.177032 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_duck.png
+  artifactKey: Guid(6c7854ed25014b4dbdc9ad26b9c5a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_duck.png using Guid(6c7854ed25014b4dbdc9ad26b9c5a919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cae267814ac6be6468cb4b62680c15d') in 0.118012 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_sycthe.png
+  artifactKey: Guid(266572e3ec274ddb9187e0c6c29cc0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_sycthe.png using Guid(266572e3ec274ddb9187e0c6c29cc0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221a939159dc5e8050da568c6f7564f2') in 0.135350 seconds 
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_vanish.png
+  artifactKey: Guid(5292055cc8f144edbf0ab576107507ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_vanish.png using Guid(5292055cc8f144edbf0ab576107507ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9524cf480c8f29475a6139a8fbb89f6') in 0.063979 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_hammer.png
+  artifactKey: Guid(1cc1883860584c9c904180ec0e9333ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_hammer.png using Guid(1cc1883860584c9c904180ec0e9333ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993a48544beb76fd5fb38bf99aafd9ef') in 0.172680 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_sycthe.png
+  artifactKey: Guid(5772fab23d4244ac8a59e3587260136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_sycthe.png using Guid(5772fab23d4244ac8a59e3587260136f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc04456cee18a62ce4648b1b1a858b8') in 0.084303 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_duck.png
+  artifactKey: Guid(7f84e446fe184e4291416b3b7abef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_duck.png using Guid(7f84e446fe184e4291416b3b7abef7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13c802c2dbc1598eb2fc0d545fe376a') in 0.111212 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_slide.png
+  artifactKey: Guid(a70de498299c49d58d71d28f1c04d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_slide.png using Guid(a70de498299c49d58d71d28f1c04d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1c1e9bfddc897ce0638e803a510a01') in 0.066377 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_idle.png
+  artifactKey: Guid(8f350c132de440ef8539edd8cb71c1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_idle.png using Guid(8f350c132de440ef8539edd8cb71c1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eb23f4b512571b63c2a3e779d93986') in 0.101532 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_hit2.png
+  artifactKey: Guid(7b86674a7eb943098b7061f7694a945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_hit2.png using Guid(7b86674a7eb943098b7061f7694a945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6add0f489b62f62d6877ad5378aa802c') in 0.077631 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/weapon_sycthe.png
+  artifactKey: Guid(7a83a1d618984b75afe9a7238bbf0022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/weapon_sycthe.png using Guid(7a83a1d618984b75afe9a7238bbf0022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6179c4c98dca9a0aafa65aba17cccc28') in 0.082307 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_duck.png
+  artifactKey: Guid(a13f0a2d86cb412682fdad0bfdc8a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_duck.png using Guid(a13f0a2d86cb412682fdad0bfdc8a153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04f6e61a65757cda48bc1b0e8100fdf') in 0.134757 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_sycthe.png
+  artifactKey: Guid(75f75a0213d041459ba39a93aa7eab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_sycthe.png using Guid(75f75a0213d041459ba39a93aa7eab96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36100582c3870c1754ad8d062910ead') in 0.130014 seconds 
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit2.png
+  artifactKey: Guid(62b069406f934592b314206fd747d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hit2.png using Guid(62b069406f934592b314206fd747d4ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08bdbda14e6da2c53725d6f0fe10837') in 0.085568 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_hammer.png
+  artifactKey: Guid(7ae4e7c87cfc4906a2b8cfd4e790f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_hammer.png using Guid(7ae4e7c87cfc4906a2b8cfd4e790f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2311ccbbe96bc0b5ff8b1acd379d645c') in 0.199397 seconds 
+Number of asset objects unloaded after import = 117
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_idle.png
+  artifactKey: Guid(f80c599bdaef4b9b8857b27fe6a5a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_idle.png using Guid(f80c599bdaef4b9b8857b27fe6a5a6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c6fd812103148083c03591fe692ccb') in 0.112962 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_wood_barrier.png
+  artifactKey: Guid(7041e2f42e0c427d8d59d8336a2badfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_wood_barrier.png using Guid(7041e2f42e0c427d8d59d8336a2badfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd988c09580b5dbde186cbb4e60e63b') in 0.071203 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_wood_barrier.png
+  artifactKey: Guid(43f4e91a070d4d06898c321ca11b8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_wood_barrier.png using Guid(43f4e91a070d4d06898c321ca11b8287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7558f4330bf89fe7ed8ebbbd12b12ffd') in 0.070601 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_wood_barrier.png
+  artifactKey: Guid(7966c08176a74e9ea6441c6a5821a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/world_wood_barrier.png using Guid(7966c08176a74e9ea6441c6a5821a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09cdbb9f1139c0c955d540c893d0f0b') in 0.069177 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_vanish.png
+  artifactKey: Guid(9c8ede9162944bb18edea13a334ed735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_vanish.png using Guid(9c8ede9162944bb18edea13a334ed735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8e3321755692a023116e3fbd1dfeaa') in 0.060919 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_arrow_basic.png
+  artifactKey: Guid(31b39a43594c4b11b56a66dd4bc1a15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/world_arrow_basic.png using Guid(31b39a43594c4b11b56a66dd4bc1a15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da57f3805355b2de4c7f0239ca65e4eb') in 0.015948 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_vanish.png
+  artifactKey: Guid(0d97929f4cbf4c21a7327992ce0140f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_vanish.png using Guid(0d97929f4cbf4c21a7327992ce0140f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af28d4d8a982a93c0d8429fd742c9aca') in 0.068534 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_slide.png
+  artifactKey: Guid(47aa8856883147f4af099057c90ae612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_slide.png using Guid(47aa8856883147f4af099057c90ae612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b8d0ff94e6fad8c74451e6b042d584') in 0.061633 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_player_shadow.png
+  artifactKey: Guid(07c63d19fbd84029908e0b08fed4c576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/world_player_shadow.png using Guid(07c63d19fbd84029908e0b08fed4c576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecf8e9465037c6b5ca35d39305e2ec0') in 0.015196 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_vanish.png
+  artifactKey: Guid(8588b1b28c37409fba04027520124c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_vanish.png using Guid(8588b1b28c37409fba04027520124c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762a24609afc45401372293c490071b7') in 0.060709 seconds 
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_hammer.png
+  artifactKey: Guid(ebcd713d84c744f78b6619c24533b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_hammer.png using Guid(ebcd713d84c744f78b6619c24533b773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25537124ba3dc8a5585d917ee193301') in 0.126569 seconds 
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_idle.png
+  artifactKey: Guid(3af15dd03d4c4bd6a689f52227db8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_idle.png using Guid(3af15dd03d4c4bd6a689f52227db8663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c303b041e90e429bf31e45535ac769c') in 0.113672 seconds 
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_slide.png
+  artifactKey: Guid(f93871c54ae346f38fe3d1f12654fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_slide.png using Guid(f93871c54ae346f38fe3d1f12654fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bed35448a89d50930d6358275c23f9') in 0.068058 seconds 
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/weapon_sycthe.png
+  artifactKey: Guid(6734248870de40678a93fb98e0c0209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/weapon_sycthe.png using Guid(6734248870de40678a93fb98e0c0209a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f79ea49964f3f96f12d55093333edd3') in 0.081966 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_player_shadow.png
+  artifactKey: Guid(f1df4167b835490a9e64f84dd687f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/world_player_shadow.png using Guid(f1df4167b835490a9e64f84dd687f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6300198ae687c3659a48189f36b220cf') in 0.009507 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_player_shadow.png
+  artifactKey: Guid(b9240cd4a4e345c6af628586b37bc1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/world_player_shadow.png using Guid(b9240cd4a4e345c6af628586b37bc1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ca187fa1ceb2887dfdfa0ecccac5e') in 0.007932 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.483465 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_walk.png
+  artifactKey: Guid(d7aff1338b4d48ef833c98833d754837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_walk.png using Guid(d7aff1338b4d48ef833c98833d754837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dbbe6419e5c8e24195f3a2ffb5456c') in 0.088385 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_walk.png
+  artifactKey: Guid(cd45b2a38fa547f3a1fe7a45f6695751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_walk.png using Guid(cd45b2a38fa547f3a1fe7a45f6695751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f404f460c38b7ebd445b181faa2a18e') in 0.081716 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_walk.png
+  artifactKey: Guid(b3666a04593f4f7089d46c02a44d3bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_walk.png using Guid(b3666a04593f4f7089d46c02a44d3bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ade1a4cf589c4df7020aa3854ba626') in 0.079748 seconds 
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 5.427807 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_throw.png
+  artifactKey: Guid(fa10b776abb7476b9cad55d90bb1c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_throw.png using Guid(fa10b776abb7476b9cad55d90bb1c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce0da6c3bf772a2960efb19b04a3a16') in 0.126218 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_throw.png
+  artifactKey: Guid(f393f30591ad4e8fb6ed5767618ac7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_throw.png using Guid(f393f30591ad4e8fb6ed5767618ac7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f719391dfa9b17c3d4182cbb1d0b7aff') in 0.117812 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 3.298528 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_sword.png
+  artifactKey: Guid(2e6a144b977c41a7b59f3e0944c2c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_sword.png using Guid(2e6a144b977c41a7b59f3e0944c2c00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2609c9bf2f46fbb2838c2baac0aa104c') in 0.116199 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_sword.png
+  artifactKey: Guid(22a52fd73b324e14803bec56426810f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_sword.png using Guid(22a52fd73b324e14803bec56426810f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986499eef115413e19683a9878fb3bd9') in 0.074319 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/weapon_sword.png
+  artifactKey: Guid(a2699debe6ac4ca3aecf0f2e0be5bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/weapon_sword.png using Guid(a2699debe6ac4ca3aecf0f2e0be5bf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bf1fd26f53dea2d819eb428a70b578') in 0.071889 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/weapon_sword.png
+  artifactKey: Guid(433c19474cd74aadad7556cdace46075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/weapon_sword.png using Guid(433c19474cd74aadad7556cdace46075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba91e14d9dd8647abcc285e0ee243f3') in 0.067222 seconds 
+Number of asset objects unloaded after import = 38
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_sword.png
+  artifactKey: Guid(6ac0be5afff845d4b60cd6974a4ec5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/character_sword.png using Guid(6ac0be5afff845d4b60cd6974a4ec5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2889e542a30427f14472b93c6b82db79') in 0.118199 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 0.594842 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_run.png
+  artifactKey: Guid(ce691c6de96549e49d7bc788cbabe3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_run.png using Guid(ce691c6de96549e49d7bc788cbabe3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602b0d17346112abe23b853fd586848c') in 0.065397 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_run.png
+  artifactKey: Guid(7e863af0fa354ba59dea39f340f3cb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_run.png using Guid(7e863af0fa354ba59dea39f340f3cb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa8fa5237530fadcf830c9f17099865') in 0.061586 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.681254 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_rifle.png
+  artifactKey: Guid(05556d58ca7c44a1887efe9c28bf301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/weapon_rifle.png using Guid(05556d58ca7c44a1887efe9c28bf301e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a6540123e471bd9fa96f00c60874ef') in 0.016805 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_rifle.png
+  artifactKey: Guid(6e6eb2e9a29646bfb0c71724d5937509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_rifle.png using Guid(6e6eb2e9a29646bfb0c71724d5937509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a1d8280991417d4746af4dc81e23b4') in 0.019115 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_rifle.png
+  artifactKey: Guid(f5e17aa647154582865a1a2b9d9d8297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Hillbilly/Sprites/weapon_rifle.png using Guid(f5e17aa647154582865a1a2b9d9d8297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f449c21174aa33b1f04fba057d53ce8') in 0.011435 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_jump.png
+  artifactKey: Guid(a8260df642d34bb087e090d92ea16fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_jump.png using Guid(a8260df642d34bb087e090d92ea16fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2afdb4e33af115e48f45f50973f252') in 0.101925 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_jump.png
+  artifactKey: Guid(3d81c2ce6fbe46ebbb8a79bbc2c9822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Tree/Sprites/character_jump.png using Guid(3d81c2ce6fbe46ebbb8a79bbc2c9822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96b615793330b6b9a81ad493f9cd86d') in 0.126926 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_jump.png
+  artifactKey: Guid(7f4b37b238b4431e9b5e3dea77f058b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_jump.png using Guid(7f4b37b238b4431e9b5e3dea77f058b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8918622e09d1d32661006ee0959c1403') in 0.119403 seconds 
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time since last request: 2.679410 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_hold.png
+  artifactKey: Guid(1aadbea512d5415389c93f1194dbd575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Viking/Sprites/character_hold.png using Guid(1aadbea512d5415389c93f1194dbd575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fda33fb564fa2afc3cc82e346e93a25') in 0.151028 seconds 
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_hold.png
+  artifactKey: Guid(edcb172b7b154f56afc47fc1ffda8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Farmer/Sprites/character_hold.png using Guid(edcb172b7b154f56afc47fc1ffda8808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac7a03785d0b7ba9d71794e9035ef7a') in 0.144592 seconds 
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hold.png
+  artifactKey: Guid(086d060fbf2143288d5e65e2bc161d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/COPY SPRIGHT/2D Character - Plant/Sprites/character_hold.png using Guid(086d060fbf2143288d5e65e2bc161d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd032e31ed9a771534a2417ae918cea5a') in 0.151985 seconds 
+Number of asset objects unloaded after import = 86
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.751 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Thread 0x16d5bf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.298 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.042 seconds
+- Finished resetting the current domain, in  1.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (292ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (118ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		LoadAllAssembliesAndSetupDomain (458ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (180ms)
+			LoadAssemblies (29ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (441ms)
-				TypeCache.Initialize (299ms)
-					TypeCache.ScanAssembly (296ms)
-				ResolveRequiredComponents (4ms)
+			SetupTypeCache (173ms)
+				TypeCache.Initialize (119ms)
+					TypeCache.ScanAssembly (117ms)
+				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (514ms)
+			SetupLoadedEditorAssemblies (195ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+			AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 2.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1703 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 15 unused Assets / (22.1 KB). Loaded Objects now: 2179.
-Memory consumption went from 385.3 MB to 385.3 MB.
-Total: 4.751943 ms (FindLiveObjects: 0.301777 ms CreateObjectMapping: 0.249040 ms MarkObjects: 4.161067 ms  DeleteObjects: 0.038466 ms)
+Unloading 15 unused Assets / (29.1 KB). Loaded Objects now: 2217.
+Memory consumption went from 383.9 MB to 383.9 MB.
+Total: 2.000625 ms (FindLiveObjects: 0.077833 ms CreateObjectMapping: 0.022334 ms MarkObjects: 1.875375 ms  DeleteObjects: 0.024500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d5bf000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.282 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (111ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		LoadAllAssembliesAndSetupDomain (171ms)
+			LoadAssemblies (27ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (109ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (192ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1704 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 2220.
+Memory consumption went from 391.7 MB to 391.7 MB.
+Total: 2.041833 ms (FindLiveObjects: 0.069084 ms CreateObjectMapping: 0.022500 ms MarkObjects: 1.922666 ms  DeleteObjects: 0.027000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
