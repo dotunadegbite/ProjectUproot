@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets/Scripts/Managers/GameManager.cs" />
+     <Compile Include="Assets/Scripts/Agent.cs" />
+     <None Include="Assets/COPY SPRIGHT/2D Characters - Farm Bundle/2D Characters - Farm Bundle.txt" />
+     <None Include="Assets/Isometric Farm Pack/License.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -291,7 +294,7 @@
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -660,55 +663,55 @@
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/ProjectUproot/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
