@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] Agent[] userAgents;
     [SerializeField] Agent[] enemyAgents;
+
+    [SerializeField] private Button orderAgentsButton;
+    [SerializeField] private Button attackPlantButton;
+    [SerializeField] private Button attackTreeButton;
+    [SerializeField] private Button attackFlowerButton;
+    [SerializeField] private Button attackButton;
 
     private int numEnemiesAlive;
     private int numUserAgentsAlive;
@@ -21,6 +28,7 @@ public class GameManager : MonoBehaviour
     bool isCoroutineReady = true;
 
     int index = -1;
+    int turnsPassed = 0;
 
     void Start()
     {
@@ -29,6 +37,13 @@ public class GameManager : MonoBehaviour
 
         numEnemiesAlive = enemyAgents.Length;
         numUserAgentsAlive = userAgents.Length;
+
+        // Start off with attack and target buttons disabled
+        orderAgentsButton.gameObject.SetActive(true);
+        attackPlantButton.gameObject.SetActive(false);
+        attackTreeButton.gameObject.SetActive(false);
+        attackFlowerButton.gameObject.SetActive(false);
+        attackButton.gameObject.SetActive(false);
     }
 
     IEnumerator AttackCoroutine()
@@ -46,9 +61,6 @@ public class GameManager : MonoBehaviour
             Debug.Log(target.gameObject.name + " has died");
             // target died
             target.isDead = true;
-
-            // Remove target from the board
-            target.gameObject.SetActive(false);
         }
         yield return new WaitForSeconds(1);
 
@@ -61,15 +73,37 @@ public class GameManager : MonoBehaviour
                 numEnemiesAlive--;
             }
 
+            // Remove target from the board
+            target.gameObject.SetActive(false);
+
             checkWinLoseConditions();
         }
 
         Debug.Log("Done with turn");
+        turnsPassed++;
+
+        if (turnsPassed == allAgents.Length) {
+            orderAgentsButton.gameObject.SetActive(true);
+            attackPlantButton.gameObject.SetActive(false);
+            attackTreeButton.gameObject.SetActive(false);
+            attackFlowerButton.gameObject.SetActive(false);
+            attackButton.gameObject.SetActive(false);
+        } else {
+            UpdateAttacker();
+        }
+
+        // orderAgentsButton.gameObject.SetActive(true);
+        // attackPlantButton.gameObject.SetActive(false);
+        // attackTreeButton.gameObject.SetActive(false);
+        // attackFlowerButton.gameObject.SetActive(false);
+        // attackButton.gameObject.SetActive(false);
         yield return null;
     }
 
     public void orderAgentsBySpeed() {
         Debug.Log("orderAgentsBySpeed");
+        turnsPassed = 0;
+
         System.Array.Sort(allAgents, new AgentComparer());
 
         // Reset all positions
@@ -86,11 +120,16 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < allAgents.Length; i++) {
             var agent = allAgents[i];
 
+            if (agent.isDead) {
+                continue;
+            }
+
             Vector3 temp = new Vector3(start,0,0);
 
             agent.gameObject.transform.position += temp;
             start += 2;
         }
+        UpdateAttacker();
     }
 
     public void UpdateAttacker() {
@@ -102,12 +141,52 @@ public class GameManager : MonoBehaviour
         attacker = allAgents[index];
 
         if (attacker.isDead) {
+            turnsPassed++;
             UpdateAttacker();
+        }
+
+        if (attacker.isUser) {
+            // Show target buttons
+            orderAgentsButton.gameObject.SetActive(false);
+            attackPlantButton.gameObject.SetActive(true);
+            attackTreeButton.gameObject.SetActive(true);
+            attackFlowerButton.gameObject.SetActive(true);
+        } else {
+            attackButton.gameObject.SetActive(true);
         }
     }
 
+    public void SetTargetToPlant() {
+        target = allAgents.First(x => x.gameObject.name.Contains("Plant"));
+        Debug.Log("target is now " + target.gameObject.name);
+
+        attackPlantButton.gameObject.SetActive(false);
+        attackTreeButton.gameObject.SetActive(false);
+        attackFlowerButton.gameObject.SetActive(false);
+        attackButton.gameObject.SetActive(true);
+    }
+
+    public void SetTargetToTree() {
+        target = allAgents.First(x => x.gameObject.name.Contains("Tree"));
+        Debug.Log("target is now " + target.gameObject.name);
+
+        attackPlantButton.gameObject.SetActive(false);
+        attackTreeButton.gameObject.SetActive(false);
+        attackFlowerButton.gameObject.SetActive(false);
+        attackButton.gameObject.SetActive(true);
+    }
+
+    public void SetTargetToFlower() {
+        target = allAgents.First(x => x.gameObject.name.Contains("Flower"));
+        Debug.Log("target is now " + target.gameObject.name);
+
+        attackPlantButton.gameObject.SetActive(false);
+        attackTreeButton.gameObject.SetActive(false);
+        attackFlowerButton.gameObject.SetActive(false);
+        attackButton.gameObject.SetActive(true);
+    }
+
     public void PerformAttack() {
-        UpdateAttacker();
         Debug.Log("Attacker is " + attacker.gameObject.name);
 
         // Make sure we're not dead
@@ -116,18 +195,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        // Find the target
-        target = null;
-        if (attacker.isUser && numEnemiesAlive > 0) {
-            // Find a random enemy to attack
-            // Debug.Log("Found an enemy to attack");
-            for (int j = 0; j < enemyAgents.Length; j++) {
-                if (enemyAgents[j].health > 0) {
-                    target = enemyAgents[j];
-                    break;
-                }
-            }
-        } else if (!attacker.isUser && numUserAgentsAlive > 0) {
+        if (!attacker.isUser && numUserAgentsAlive > 0) {
             // Find a random user agent to attack
             // Debug.Log("Found an user agent to attack");
             for (int j = 0; j < userAgents.Length; j++) {
