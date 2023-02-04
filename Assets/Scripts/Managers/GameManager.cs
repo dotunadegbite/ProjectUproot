@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private CombatManager cm;
+
     void Start()
     {
-        
+        Debug.Log("Starting game");
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        cm.triggerCombat();
     }
 }
