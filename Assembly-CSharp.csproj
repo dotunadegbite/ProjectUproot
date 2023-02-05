@@ -40,10 +40,79 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/OverlayController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Abilities/CastAbilityButton.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Utils/Constants.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/CharacterSpawner.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/UI/TurnOrderDisplay.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/MouseController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Utils/ActionLogger.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/AttackRangePreviewOnHovor.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/AI/Senario.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/MovementController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/TurnBasedController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Tiles/OverlayTile.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventGameObject.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Classes/PathFinder.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/StatReader.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/BaseStat.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/CharacterManager.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Tiles/SpawnTile.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Tiles/SpawnTileContainer.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/EventCommand.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventGameObjectListListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/ReloadSceneOnDeath.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/UI/ButtonStateManager.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/MapManager.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Character/CharacterStats.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Actions/AbilityContainer.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEvent.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/EnemyContainer.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Utils/Enums.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/GameConfig.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/UIManager.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventListenerInternal.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Tiles/ArrowTranslator.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/Entity.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Effects/ScriptableEffect.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Abilities/CreateAbilityList.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/SceneSwitcher.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventGameObjectList.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventIntListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventInt.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Tiles/TileData.cs" />
      <Compile Include="Assets/Scripts/Managers/GameManager.cs" />
      <Compile Include="Assets/Scripts/Agent.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/CameraShake.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/DisplayMana.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/LevelReader.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/UI/SetActiveCharacterPortrait.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventGameObjectListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/AbilityController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventStringListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Character/CharacterClass.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/RuntimeSets/RuntimeDictionary.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Actions/Ability.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventCommandListener.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Managers/BattleController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Classes/ShapeParser.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/PositionOnGrid.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/RuntimeSets/RuntimeSet.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventCommand.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/RuntimeSets/SetTypes/TileDataRuntimeSet.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Simple/ColorOscillator.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/Stat.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/EnemyController.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Characters/StatModifier.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Classes/RangeFinder.cs" />
+     <Compile Include="Assets/LawlessGames/Tactics Toolkit/Scripts/Scriptable Objects/Events/GameEventString.cs" />
+     <None Include="Assets/LawlessGames/Tactics Toolkit/Abilities/Shapes/NewAbility.txt" />
+     <None Include="Assets/LawlessGames/Tactics Toolkit/Abilities/Shapes/BasicAbility.txt" />
      <None Include="Assets/COPY SPRIGHT/2D Characters - Farm Bundle/2D Characters - Farm Bundle.txt" />
+     <None Include="Assets/LawlessGames/Tactics Toolkit/Abilities/Shapes/CircleShape.txt" />
      <None Include="Assets/Isometric Farm Pack/License.txt" />
+     <None Include="Assets/LawlessGames/Tactics Toolkit/Abilities/Shapes/InfiniteAbility.txt" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -293,8 +362,26 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
@@ -662,56 +749,128 @@
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2022.2.1f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Environments">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.AI.Navigation">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+    <Reference Include="Unity.Collections">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Updater">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.AI.Navigation.Editor">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>/Users/dotunoseni-adegbite/Documents/ProjectUproot/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
