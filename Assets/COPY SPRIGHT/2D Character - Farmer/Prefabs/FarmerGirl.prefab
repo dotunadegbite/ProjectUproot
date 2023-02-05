@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8120323503538807908}
   - component: {fileID: 8120323503538807909}
   - component: {fileID: 304906843799593091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: FarmerGirl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 8120323503538807911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -442376277
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 6084859605308855041, guid: 8f350c132de440ef8539edd8cb71c1e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!114 &8120323503538807909
 MonoBehaviour:
   m_ObjectHideFlags: 0
