@@ -99,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isUser: 0
+  sprite: {fileID: 0}
   health: 10
   attack: 4
   speed: 2

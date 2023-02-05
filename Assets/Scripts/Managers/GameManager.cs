@@ -75,6 +75,7 @@ public class GameManager : MonoBehaviour
 
             // Remove target from the board
             target.gameObject.SetActive(false);
+            yield return new WaitForSeconds(1);
 
             checkWinLoseConditions();
         }
@@ -82,21 +83,24 @@ public class GameManager : MonoBehaviour
         Debug.Log("Done with turn");
         turnsPassed++;
 
-        if (turnsPassed == allAgents.Length) {
-            orderAgentsButton.gameObject.SetActive(true);
+        if (finishedGame) {
+            // Remove all buttons
+            orderAgentsButton.gameObject.SetActive(false);
             attackPlantButton.gameObject.SetActive(false);
             attackTreeButton.gameObject.SetActive(false);
             attackFlowerButton.gameObject.SetActive(false);
             attackButton.gameObject.SetActive(false);
         } else {
-            UpdateAttacker();
+            if (turnsPassed == allAgents.Length) {
+            orderAgentsButton.gameObject.SetActive(true);
+            attackPlantButton.gameObject.SetActive(false);
+            attackTreeButton.gameObject.SetActive(false);
+            attackFlowerButton.gameObject.SetActive(false);
+            attackButton.gameObject.SetActive(false);
+            } else {
+                UpdateAttacker();
+            }
         }
-
-        // orderAgentsButton.gameObject.SetActive(true);
-        // attackPlantButton.gameObject.SetActive(false);
-        // attackTreeButton.gameObject.SetActive(false);
-        // attackFlowerButton.gameObject.SetActive(false);
-        // attackButton.gameObject.SetActive(false);
         yield return null;
     }
 
@@ -112,10 +116,10 @@ public class GameManager : MonoBehaviour
 
             Vector3 temp = new Vector3(0,0,0);
 
-            agent.gameObject.transform.position = temp;
+            agent.sprite.transform.localPosition = temp;
         }
 
-        int start = -6;
+        int start = 0;
 
         for (int i = 0; i < allAgents.Length; i++) {
             var agent = allAgents[i];
@@ -126,7 +130,7 @@ public class GameManager : MonoBehaviour
 
             Vector3 temp = new Vector3(start,0,0);
 
-            agent.gameObject.transform.position += temp;
+            agent.sprite.transform.localPosition += temp;
             start += 2;
         }
         UpdateAttacker();
@@ -152,7 +156,8 @@ public class GameManager : MonoBehaviour
             attackTreeButton.gameObject.SetActive(true);
             attackFlowerButton.gameObject.SetActive(true);
         } else {
-            attackButton.gameObject.SetActive(true);
+            // If its enemy's turn, perform attack
+            PerformAttack();
         }
     }
 

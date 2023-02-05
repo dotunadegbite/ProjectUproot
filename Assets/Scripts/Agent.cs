@@ -12,6 +12,8 @@ public class Agent : MonoBehaviour
 {
     [SerializeField] public bool isUser;
 
+    [SerializeField] public GameObject sprite;
+
     // Stats
     [SerializeField] public int health;
     [SerializeField] public int attack;
