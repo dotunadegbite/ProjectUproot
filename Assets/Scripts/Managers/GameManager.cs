@@ -49,6 +49,7 @@ public class GameManager : MonoBehaviour
     IEnumerator AttackCoroutine()
     {
         attacker.SetAttackTrigger(true);
+        target.SetHurtBool(true);
 
         var damageToDeal = this.attacker.attack;
         Debug.Log(attacker.gameObject.name + " is attacking " + target.gameObject.name);
@@ -65,6 +66,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         attacker.SetAttackTrigger(false);
+        target.SetHurtBool(false);
 
         if (target.isDead) {
             if (target.isUser) {

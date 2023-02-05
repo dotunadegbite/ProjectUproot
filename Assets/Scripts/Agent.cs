@@ -31,6 +31,10 @@ public class Agent : MonoBehaviour
         animator.SetBool("shouldAttack", value);
     }
 
+    public void SetHurtBool(bool value) {
+        animator.SetBool("gotHurt", value);
+    }
+
     public bool AnimatorIsPlaying(){
      return animator.GetCurrentAnimatorStateInfo(0).length >
             animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
